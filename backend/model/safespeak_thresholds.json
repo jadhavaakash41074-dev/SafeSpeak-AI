@@ -1,0 +1,12 @@
+{
+    "toxic": 0.55,
+    "insult": 0.55,
+    "hate": 0.65,
+    "harassment": 0.35,
+    "spam": 0.1,
+    "threat": 0.85,
+    "self_harm": 0.3,
+    "profanity": 0.35,
+    "sexual": 0.35,
+    "sarcasm": 0.15
+}

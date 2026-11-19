@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a; /* Deep Dark Background */
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a !important;
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  
+  /* Background Pattern (Fun Chat Feel) */
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(129, 140, 248, 0.12) 0%, transparent 40%),
+    radial-gradient(#334155 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 30px 30px;
+  background-attachment: fixed;
+}
