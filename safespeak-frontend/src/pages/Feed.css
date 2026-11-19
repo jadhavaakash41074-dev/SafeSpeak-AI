@@ -1,0 +1,103 @@
+.feed-page {
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+/* Welcome banner */
+.feed-welcome {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(124,58,237,0.1);
+  padding: 10px 16px;
+  position: sticky;
+  top: 58px;
+  z-index: 50;
+}
+
+.feed-welcome-inner {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.feed-welcome-inner span { font-size: 18px; }
+.feed-welcome-inner p { flex: 1; }
+.feed-welcome-inner strong { color: var(--p1); }
+
+.feed-upload-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 16px;
+  background: var(--grad);
+  color: white;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px rgba(124,58,237,0.35);
+  transition: all 0.2s;
+}
+.feed-upload-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 16px rgba(124,58,237,0.45);
+}
+
+/* Demo notice */
+.demo-notice {
+  max-width: 500px;
+  margin: 14px auto 0;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.08));
+  border: 1px dashed rgba(124,58,237,0.3);
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--p1);
+  text-align: center;
+}
+
+.feed-posts {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 14px 12px 0;
+}
+
+.feed-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.feed-loading .spin {
+  color: var(--p1);
+  filter: drop-shadow(0 0 10px rgba(124,58,237,0.5));
+}
+
+.load-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px;
+  background: none;
+  font-size: 13px;
+  font-weight: 800;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: opacity 0.15s;
+}
+.load-more-btn:hover { opacity: 0.7; }
+.load-more-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.spin { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }

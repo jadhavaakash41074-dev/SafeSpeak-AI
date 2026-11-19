@@ -1,0 +1,46 @@
+[
+  {
+    "id": "8183633c-a1db-4d2d-aabf-884fbf13fa6a",
+    "username": "vedu",
+    "email": "vedu@gamil.com",
+    "password": "$2a$10$xF7vuo//mpIJoJwo7dxwqOpLcXyZTQh6eJhxS9kcMaYEmX9TnwDwi",
+    "avatar": "/uploads/avatars/1776349703986-WhatsApp Image 2026-02-27 at 6.07.35 PM (1).jpeg",
+    "bio": "",
+    "followers": [],
+    "following": [],
+    "createdAt": "2026-04-16T14:15:27.952Z"
+  },
+  {
+    "id": "440d79d9-0eeb-402d-973e-83c8a1726af5",
+    "username": "testuser",
+    "email": "test@test.com",
+    "password": "$2a$10$P2BUAQSRKJtSK4HX4/6KNeNCV2.eAXGd6280VRyotjC53liS6xQ0y",
+    "avatar": null,
+    "bio": "",
+    "followers": [],
+    "following": [],
+    "createdAt": "2026-04-16T14:44:12.945Z"
+  },
+  {
+    "id": "9743dbba-7b08-40cc-a1f8-11e0e942f951",
+    "username": "newuser",
+    "email": "new@test",
+    "password": "$2a$10$3KbmFInrWO//OH36yKthQ./FqMdXDZfmb947QIsiYKIa4KiJqoJc2",
+    "avatar": null,
+    "bio": "",
+    "followers": [],
+    "following": [],
+    "createdAt": "2026-04-16T14:45:49.422Z"
+  },
+  {
+    "id": "2e567e15-a14d-4276-9b68-fad32ef98cc1",
+    "username": "aku143",
+    "email": "aku@gmail.com",
+    "password": "$2a$10$7ZPvWfGwh/Ax6ECgJzj8R.7nXkT50ns6sZYTz7qdwy5.smSE7ud7S",
+    "avatar": "/uploads/avatars/1776522304622-WhatsApp Image 2026-02-27 at 6.07.31 PM (2).jpeg",
+    "bio": "",
+    "followers": [],
+    "following": [],
+    "createdAt": "2026-04-18T14:24:46.994Z"
+  }
+]
